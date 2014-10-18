@@ -17,7 +17,6 @@ call vundle#begin()
 
 Plugin 'gmarik/vundle'
 
-
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
@@ -27,7 +26,6 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
-" Plugin 'nanotech/jellybeans.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
@@ -37,9 +35,14 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'majutsushi/tagbar'
 Plugin 'godlygeek/tabular'
 Plugin 'mbbill/undotree'
+Plugin 'othree/html5.vim'
+Plugin 'digitaltoad/vim-jade'
 
 Plugin 'elzr/vim-json'
 Plugin 'vim-scripts/JavaScript-Indent'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'mattn/emmet-vim'
 
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
@@ -190,14 +193,12 @@ nmap <Leader>y :.w! ~/.vbuf<CR>
 " "paste the contents of the buffer file
 nmap <Leader>p :r ~/.vbuf<CR>
 
-" save changes
-map <Leader>s :w<CR>
-imap <Leader>s <ESC>:w<CR>
-vmap <Leader>s <ESC><ESC>:w<CR>
-
 " Automatically removing all trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
 au FileType ruby setl sw=2 sts=2 et
 au FileType javascript setl sw=2 sts=2 et
 au FileType yaml setl sw=2 sts=2 et
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'

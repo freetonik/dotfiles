@@ -7,6 +7,7 @@ export LANGUAGE='en_US.UTF-8' && export LC_ALL='en_US.UTF-8'
 
 unset MAILCHECK
 
+alias fuck='sudo $(history -p \!\!)'
 EDITOR=vim
 alias e='$EDITOR'
 alias v="vim"
@@ -26,10 +27,13 @@ alias ga='git add'
 alias gall='git add .'
 alias gcm='git commit -v -m'
 alias gb='git branch'
-alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gdiff='git diff'
 alias gp='git push'
 alias gpr='git pull --rebase'
+
+# RAILS
+alias rtest='bin/rake test'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias prj='cd /Volumes/MacHDD/freetonik/project/hexlet/'
