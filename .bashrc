@@ -82,12 +82,16 @@ shl() {
 # ETC
 alias halp='cat ~/.bashrc'
 alias bashreload='source ~/.bashrc'
+# Bash history with context awareness
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
 
 # Cute network utils
 alias checkdns_eth="networksetup -getdnsservers ethernet"
 alias checkdns_wifi="networksetup -getdnsservers Wi-Fi"y
 alias flushdns="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
 
+# Ruby stuff
 eval "$(rbenv init -)"
 PATH="~/bin:/usr/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
