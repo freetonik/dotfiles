@@ -6,7 +6,5 @@ ln -s ~/code/dotfiles/.bashrc ~/.bashrc
 ln -s ~/code/dotfiles/.load-castlemacs.sh ~/.load-castlemacs.sh
 ln -s ~/code/dotfiles/.unload-castlemacs.sh ~/.unload-castlemacs.sh
 
-ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/ ~/icloud
-
-ln -s ~/icloud/.os/.ssh .ssh
-ln -s ~/icloud/.os/.config .config
+ln -s ~/gdrive/4\ Etc/configs/.ssh .ssh
+ln -s ~/gdrive/4\ Etc/configs/.config .config

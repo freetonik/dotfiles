@@ -47,10 +47,10 @@ gitapush() {
 }
 
 # HUGO
-alias hug='hugo server -D --navigateToChanged'
+# alias hug='hugo server -D --navigateToChanged'
 
 # JEKYLL
-alias js='bundle exec jekyll serve --watch --port 4242'
+# alias js='bundle exec jekyll serve --watch --port 4242'
 
 # ImageMagick: PDF to PNG
 pdftopng() {
@@ -100,4 +100,7 @@ PATH="~/bin:/usr/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
+export GOPATH=$HOME/code/go
+
+  . /usr/local/etc/profile.d/z.sh
 source $HOME/.bash_theme
