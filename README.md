@@ -59,6 +59,11 @@
 - Clone dotfiles
 - run `generate_symlinks.sh`
 
+```bash
+git config --global user.name "Rakhim Davletkaliyev"
+git config --global user.email "rakhim@rakhim.org"
+```
+
 - [Karabiner Elements](https://pqrs.org/osx/karabiner/)
   - It syncs automatically via `~/.config` → (symlink) `~/gdrive/4 Etc/configs/.config`
   - For new PC-keyboard:
