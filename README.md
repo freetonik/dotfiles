@@ -5,11 +5,12 @@
 - Disable iCloud
 - Connect to NAS
 - Finder sidebar
+  - Recents
   - Desktop
   - gdrive
   - Downloads
-  - Screenshots
-  - Applications
+  - screenshots
+  - code
   - home
   - Media
   - Entertainment
@@ -132,6 +133,7 @@ git config --global user.email "rakhim@rakhim.org"
 - Acorn
 - Keynote, Numbers, Pages
 - Audacity
+- OmniGraffle
 
 ### Small nice things
 
