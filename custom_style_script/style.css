@@ -15,4 +15,8 @@ https://learn.codexpanse.com/manage/courses/
     background-color:
     red;
 }
+
+.action-buttons__container {
+  float: left !important;
+}
 ```
