@@ -63,6 +63,7 @@
 ```bash
 git config --global user.name "Rakhim Davletkaliyev"
 git config --global user.email "rakhim@rakhim.org"
+git config --global core.excludesfile ~/code/dotfiles/.gitignore_global
 ```
 
 - [Karabiner Elements](https://pqrs.org/osx/karabiner/)
