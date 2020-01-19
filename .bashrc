@@ -24,7 +24,6 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gdiff='git diff'
 alias gpmas='git push origin master'
 alias gpr='git pull --rebase'
-alias gcp='git cherry-pick'
 
 # GIT Functions
 gitapush() {
@@ -45,12 +44,6 @@ gitapush() {
   git commit -m "$message"
   git push origin master
 }
-
-# HUGO
-# alias hug='hugo server -D --navigateToChanged'
-
-# JEKYLL
-# alias js='bundle exec jekyll serve --watch --port 4242'
 
 # ImageMagick: PDF to PNG
 pdftopng() {
@@ -82,9 +75,6 @@ shl() {
 # ETC
 alias halp='cat ~/.bashrc'
 alias bashreload='source ~/.bashrc'
-# Bash history with context awareness
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
 
 # Cute network utils
 alias checkdns_eth="networksetup -getdnsservers ethernet"
@@ -102,5 +92,4 @@ export PATH
 
 export GOPATH=$HOME/code/go
 
-  . /usr/local/etc/profile.d/z.sh
 source $HOME/.bash_theme
