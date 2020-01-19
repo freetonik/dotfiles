@@ -7,4 +7,4 @@ ln -s ~/code/dotfiles/.load-castlemacs.sh ~/.load-castlemacs.sh
 ln -s ~/code/dotfiles/.unload-castlemacs.sh ~/.unload-castlemacs.sh
 
 ln -s ~/Dropbox/Zetc/configs/.ssh ~/.ssh
-ln -s ~/Dropbox/Zetc/configs/.config ~/.config
+# ln -s ~/Dropbox/Zetc/configs/.config ~/.config
