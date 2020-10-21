@@ -24,6 +24,7 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gdiff='git diff'
 alias gpmas='git push origin master'
 alias gpr='git pull --rebase'
+alias gprr='for d in ./*/ ; do (cd "$d" && echo " " && echo "$d: " && git pull --rebase); done'
 
 # GIT Functions
 gitapush() {
