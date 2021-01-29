@@ -62,6 +62,8 @@ PATH="~/bin:/usr/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+
+PATH="${HOME}/.cargo/bin:${PATH}"
 export PATH
 
 export GOPATH=$HOME/code/go
