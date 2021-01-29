@@ -52,7 +52,7 @@ alias bashreload='source ~/.bashrc'
 
 # Cute network utils
 alias checkdns_eth="networksetup -getdnsservers ethernet"
-alias checkdns_wifi="networksetup -getdnsservers Wi-Fi"y
+alias checkdns_wifi="networksetup -getdnsservers Wi-Fi"
 alias flushdns="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
 
 # Ruby stuff
