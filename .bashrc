@@ -25,6 +25,7 @@ alias gdiff='git diff'
 alias gpmas='git push origin master'
 alias gpr='git pull --rebase'
 alias gprr='for d in ./*/ ; do (cd "$d" && echo " " && echo "$d: " && git pull --rebase); done'
+alias gitapushr='for d in ./*/ ; do (cd "$d" && echo " " && echo "$d: " && gitapush dirty); done'
 
 # GIT Functions
 gitapush() {
