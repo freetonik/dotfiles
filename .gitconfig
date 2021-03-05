@@ -1,3 +1,7 @@
 [user]
 	name = Rakhim Davletkaliyev
 	email = contact@rakhim.org
+[core]
+	excludesFile = ~/.gitignore
+[push]
+	default = current
